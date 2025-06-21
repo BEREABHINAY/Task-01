@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1</title>
+</head>
+<body>
+    <style>
+      /* Styles for the task selection section */
+        .task-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* Space between tasks */
+            margin-top: 20px;
+            width: 400px; /* Match width with the prime generator for alignment */
+        }
+        .task {
+            display: block;
+            padding: 15px 20px;
+            background-color: #4CAF50; /* Example color */
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+        .task:hover {
+            background-color: #45a049;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 40px; /* Margin above the "Select a Task" heading */
+            margin-bottom: 20px;
+        }
+    </style>
+    <h1>Select a Task</h1>
+<div class="task-container">
+    <a href="link.html" class="task">Task1 : Links</a>
+    <a href="list.html" class="task" target="_blank">Task2 : Lists</a>
+    <a href="table.html" class="task" target="_blank">Task3 : Tables</a>
+</div>
+
+
+</body>
+</html>
